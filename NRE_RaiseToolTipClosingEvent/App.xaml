@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="NRE_RaiseToolTipClosingEvent.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <PopupAnimation x:Key="{x:Static SystemParameters.ToolTipPopupAnimationKey}">None</PopupAnimation>
+    </Application.Resources>
+</Application>
